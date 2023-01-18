@@ -1,0 +1,63 @@
+/* Google fonts - Nunito & PT Sans
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+/* Global Variables
+   ========================================================================== */
+:root {
+  /* font */
+  --pri-font: 'Nunito', system-ui, sans-serif;
+  --sec-font: 'PT Sans', system-ui, sans-serif;
+  /* size */
+  --size-1: 0.25rem;
+  --size-2: 0.5rem;
+  --size-3: 1rem;
+  --size-4: 1.25rem;
+  --size-5: 1.5rem;
+  --size-6: 1.75rem;
+  --size-7: 2rem;
+  --size-8: 3rem;
+  --size-9: 4rem;
+  --size-10: 5rem;
+  /* color */
+  --light-0: hsl(210, 17%, 98%);
+  --dark-0: hsl(216, 16%, 6%);
+  --accent-0: #7d1a1a;
+  /* miscellaneous */
+}
+
+/* Box-sizing rules
+   ========================================================================== */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Set Core Body Defaults
+   ========================================================================== */
+body {
+  font-family: var(--sec-font);
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 1000px;
+}
+
+/* Color Scheme
+   ========================================================================== */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: var(--dark-0);
+    color: var(--light-0);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: var(--light-0);
+    color: var(--dark-0);
+  }
+}
