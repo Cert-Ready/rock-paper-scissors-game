@@ -6,7 +6,7 @@
 
 - Rock paper scissors game following the Odin Project course
 
-  - [Link To Assignment](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors)
+  - [Version 1.0 - Link To Assignment](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors)
 
 - Simple implementation of the game "rock paper scissors"
   - Version 1.0
