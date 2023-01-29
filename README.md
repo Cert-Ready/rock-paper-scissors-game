@@ -11,3 +11,6 @@
 - Simple implementation of the game "rock paper scissors"
   - Version 1.0
     - The browser console and the alert() method will be used for the game's initial version.
+    
+- External code
+  - [Normalize.css v8.0.1](https://necolas.github.io/normalize.css/)
