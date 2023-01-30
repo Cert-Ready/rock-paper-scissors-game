@@ -18,3 +18,5 @@
 
 - External code
   - [Normalize.css v8.0.1](https://necolas.github.io/normalize.css/)
+
+- [Live Demo](https://cert-ready.github.io/rock-paper-scissors-game/)
