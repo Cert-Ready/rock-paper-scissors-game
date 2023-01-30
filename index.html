@@ -5,10 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/css.css" />
   </head>
-  <body>
-    <div class="wrapper"></div>
+  <body class="flex-column">
+    <header>
+      <h1 class="hero">Rock Paper Scissors</h1>
+    </header>
+    <main>
+      <div class="round-msg textV01">Let's Play Rock Paper Scissors</div>
+      <div class="round-result textV01">First to score 5 points wins the game</div>
+      <div class="round-selection">
+        <div class="scores blink">
+          <p><span class="player-score">0</span> : <span class="computer-score">0</span></p>
+          <p class="score">user</p>
+          <p class="score">pc</p>
+        </div>
+        <div class="flex-row">
+          <p class="emoji">
+            <span class="emoji-player">﹖</span><span class="score show">user</span>
+          </p>
+          <p class="emoji">
+            <span class="emoji-computer">﹖</span><span class="score show">pc</span>
+          </p>
+        </div>
+      </div>
+
+      <button class="new-game textV01">New Game</button>
+      <div class="game-controls hide">
+        <div class="player-selection flex-row">
+          <div class="rock emoji emojis">👊</div>
+          <div class="paper emoji emojis">🫲</div>
+          <div class="scissors emoji emojis">✌️</div>
+        </div>
+        <p class="textV01">↑ Make your move ↑</p>
+      </div>
+      <div class="alert hide">
+        <div class="alert-msj">
+          <p class="winner textV01"></p>
+          <button class="textV01 buttonV01 play-again">Play Again</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        <a href="https://github.com/Cert-Ready">Cert-Ready</a>
+      </p>
+    </footer>
     <script src="./app/app.js"></script>
   </body>
 </html>
